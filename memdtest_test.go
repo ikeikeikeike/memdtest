@@ -1,8 +1,3 @@
-# memdtest
-
-There's golang for testing with memcached that concerns a own personally.
-
-```go
 package memdtest
 
 import (
@@ -60,4 +55,3 @@ func TestPort(t *testing.T) {
 		t.Fatalf("Failed to connect to memcached via tcp port: %s", err)
 	}
 }
-```
